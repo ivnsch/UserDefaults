@@ -17,7 +17,7 @@ it, simply add the following line to your Podfile:
 
     pod "UserDefaults"
     
-... or simply copy https://github.com/i-schuetz/UserDefaults/blob/master/Pod/Classes/UserDefaults.swift in your project. 
+... or copy https://github.com/i-schuetz/UserDefaults/blob/master/Pod/Classes/UserDefaults.swift in your project. 
 
 ## Usage
 
