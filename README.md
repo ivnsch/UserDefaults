@@ -65,8 +65,6 @@ foo(MyUserDefaults.value(MyKeys.Key5))
 println("String: \(MyUserDefaults.string(MyKeys.Key1))")
 ```
 
-## Requirements
-
 ## Author
 
 ischuetz
