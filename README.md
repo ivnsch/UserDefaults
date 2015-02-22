@@ -7,12 +7,10 @@
 
 Convenient wrapper for NSUserDefaults. 
 
-- Uses enum values as keys (much safer than strings!).
+- Uses enum values as keys (safe!).
 - Uses generics and type inference in order to avoid having to specify the value type, in most cases.
 
 ## Usage
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 The keys have to comform to the StringRepresentable protocol. Normally you will declare an enum similar to this:
 
@@ -59,13 +57,6 @@ println("String: \(MyUserDefaults.string(MyKeys.Key1))")
 ```
 
 ## Requirements
-
-## Installation
-
-UserDefaults is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-    pod "UserDefaults"
 
 ## Author
 
