@@ -10,6 +10,15 @@ Convenient wrapper for NSUserDefaults.
 - Uses enum values as keys (safe!).
 - Uses generics and type inference in order to avoid having to specify the value type, in most cases.
 
+## Installation
+
+UserDefaults is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+    pod "UserDefaults"
+    
+... or simply copy https://github.com/i-schuetz/UserDefaults/blob/master/Pod/Classes/UserDefaults.swift in your project. 
+
 ## Usage
 
 The keys have to comform to the StringRepresentable protocol. Normally you will declare an enum similar to this:
