@@ -1,6 +1,6 @@
 # UserDefaults
 
-[![CI Status](http://img.shields.io/travis/ischuetz/UserDefaults.svg?style=flat)](https://travis-ci.org/ischuetz/UserDefaults)
+
 [![Version](https://img.shields.io/cocoapods/v/UserDefaults.svg?style=flat)](http://cocoadocs.org/docsets/UserDefaults)
 [![License](https://img.shields.io/cocoapods/l/UserDefaults.svg?style=flat)](http://cocoadocs.org/docsets/UserDefaults)
 [![Platform](https://img.shields.io/cocoapods/p/UserDefaults.svg?style=flat)](http://cocoadocs.org/docsets/UserDefaults)
