@@ -69,7 +69,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-ischuetz, ivanschuetz@gmail.com
+ischuetz
 
 ## License
 
