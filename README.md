@@ -40,29 +40,29 @@ Examples:
 
 
 ```swift
-MyUserDefaults.setValue(MyKeys.Key1, value: "hello")
-let a:String? = MyUserDefaults.value(MyKeys.Key1)
+UserDefaults.setValue(MyKeys.Key1, value: "hello")
+let a:String? = UserDefaults.value(MyKeys.Key1)
 println("String: \(a)")
 
-MyUserDefaults.setValue(MyKeys.Key2, value: 2.46)
-let b:Double? = MyUserDefaults.value(MyKeys.Key2)
+UserDefaults.setValue(MyKeys.Key2, value: 2.46)
+let b:Double? = UserDefaults.value(MyKeys.Key2)
 println("Double: \(b)")
 
-MyUserDefaults.setValue(MyKeys.Key3, value: 3)
-let c:Int? = MyUserDefaults.value(MyKeys.Key3)
+UserDefaults.setValue(MyKeys.Key3, value: 3)
+let c:Int? = UserDefaults.value(MyKeys.Key3)
 println("Int: \(c)")
 
-MyUserDefaults.setValue(MyKeys.Key4, value: true)
-let d:Bool? = MyUserDefaults.value(MyKeys.Key4)
+UserDefaults.setValue(MyKeys.Key4, value: true)
+let d:Bool? = UserDefaults.value(MyKeys.Key4)
 println("Bool: \(d)")
 
 // pass as parameter
 func foo(a:String?) {}
-MyUserDefaults.setValue(MyKeys.Key5, value: 3)
-foo(MyUserDefaults.value(MyKeys.Key5))
+UserDefaults.setValue(MyKeys.Key5, value: 3)
+foo(UserDefaults.value(MyKeys.Key5))
 
 // type inference not possible, use convenience accessors
-println("String: \(MyUserDefaults.string(MyKeys.Key1))")
+println("String: \(UserDefaults.string(MyKeys.Key1))")
 ```
 
 ## Author
