@@ -14,7 +14,7 @@ Convenient wrapper for NSUserDefaults.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-The keys have to comform to the StringRepresentable protocol. Normally you will declare an enum like this:
+The keys have to comform to the StringRepresentable protocol. Normally you will declare an enum similar to this:
 
 ```swift
 enum MyKeys:String, StringRepresentable {
